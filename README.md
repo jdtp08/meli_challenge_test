@@ -12,19 +12,19 @@ Solución Implementada
 Caso Base: Segmentación de sellers usando técnicas de clustering (K-Means)
 Extensión GenAI: Clasificador semántico con embeddings LLM para asignar nuevos sellers a clusters predefinidos (Opción A)
 
-Estructura del Proyecto
-challenge-meli/
-├── Data/
-│   └── df_challenge_meli.csv           # Dataset original
-├── notebooks/
-│   └── analisis_exploratorio.ipynb    # Notebook principal con análisis completo
-├── outputs/
-│   ├── clusters/
-│   │   └── seller_clusters_k3.csv     # Etiquetas de clusters por seller
-│   └── reports/
-│       └── tabla_desempeno_clusters.csv # Métricas de rendimiento del clasificador
-├── requirements.txt                    # Dependencias del proyecto
-└── README.md                          # Este archivo
+Estructura del Proyecto<br><br>
+challenge-meli/<br>
+├── Data/<br>
+│   └── df_challenge_meli.csv           # Dataset original<br>
+├── notebooks/<br>
+│   └── analisis_exploratorio.ipynb    # Notebook principal con análisis completo<br>
+├── outputs/<br>
+│   ├── clusters/<br>
+│   │   └── seller_clusters_k3.csv     # Etiquetas de clusters por seller<br>
+│   └── reports/<br>
+│       └── tabla_desempeno_clusters.csv # Métricas de rendimiento del clasificador<br>
+├── requirements.txt                    # Dependencias del proyecto<br>
+└── README.md                          # Este archivo<br><br>
 Instalación y Configuración
 Prerrequisitos
 
@@ -39,7 +39,7 @@ cd challenge-meli
 # Crear entorno virtual (recomendado)
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
-# o
+
 .venv\Scripts\activate  # Windows
 
 # Instalar dependencias
